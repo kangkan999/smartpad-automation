@@ -7,7 +7,7 @@ import utils.WaitUtils;
 
 public class SearchPage {
     private WebDriver driver;
-    private By searchBar = By.xpath("//input[@placeholder='Search']");
+    private By searchBar = By.xpath("//input[@placeholder='Search by product name...']");
 
     public SearchPage(WebDriver driver) {
         this.driver = driver;
