@@ -8,7 +8,7 @@ import utils.WaitUtils;
 
 public class HomePage {
     private WebDriver driver;
-    private By getStartedButton = By.xpath("//button[contains(text(),'Get started')]");
+    private By getStartedButton = By.xpath("//div[@role='button']");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
