@@ -10,7 +10,7 @@ import utils.WaitUtils;
 
 public class LoginPage {
     private WebDriver driver;
-    private By continueWithoutAccountLink = By.xpath("//a[contains(text(),'Continue without an account')]");
+    private By continueWithoutAccountLink = By.xpath("//div[normalize-space()='Continue without an account']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
