@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smartpad Suite" verbose="1" parallel="false">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test name="Smartpad Flow">
+    <classes>
+      <class name="tests.SmartpadFlowTest"/>
+    </classes>
+  </test>
+</suite>
